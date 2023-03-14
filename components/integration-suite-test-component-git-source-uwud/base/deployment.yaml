@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-uwud
     spec:
       containers:
-      - image: quay.io/dheerajodha/test-images:4f122408058847899cf8d609f1cdf4a9
+      - image: quay.io/dheerajodha/test-images@sha256:8b23bcd359c74d26d92179252d776588416887a9b034b6f69c94fde68474c8cb
         name: my-python
         ports:
         - containerPort: 8081
